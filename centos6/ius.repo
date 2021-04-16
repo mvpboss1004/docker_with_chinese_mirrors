@@ -1,0 +1,23 @@
+[ius]
+name = IUS for Enterprise Linux 6 - $basearch
+baseurl = https://mirrors.cloud.tencent.com/ius/6/$basearch/
+enabled = 0
+repo_gpgcheck = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-IUS-6
+
+[ius-debuginfo]
+name = IUS for Enterprise Linux 6 - $basearch - Debug
+baseurl = https://mirrors.cloud.tencent.com/ius/6/$basearch/debug/
+enabled = 0
+repo_gpgcheck = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-IUS-6
+
+[ius-source]
+name = IUS for Enterprise Linux 6 - Source
+baseurl = https://mirrors.cloud.tencent.com/ius/6/src/
+enabled = 0
+repo_gpgcheck = 0
+gpgcheck = 1
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-IUS-6
